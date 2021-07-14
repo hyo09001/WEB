@@ -1,0 +1,73 @@
+<doctype! html>
+<html>
+    <head>
+        <title>Gaming Console</title>
+        <meta charset = 'utf-8'>
+        <style type = 'text/css'>
+            @font-face{
+                font-family: 'kenyan';
+                src: url(./kenyan.ttf) format('truetype')
+            }
+            body{
+                background-color: black;
+                margin: 0%;
+            }
+            .title{
+                display: inline-block;
+                width: 50%;
+                height: auto;
+                position: absolute;
+                left: 50%;
+                top: 50%; 
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+            .title p{
+                background-color: white;
+                text-align: center;
+                font-family:'kenyan';
+                font-size: 120px;
+                height: 200px;
+                margin: 0%;
+            }
+            .ps img{
+                width: 50%;
+                height: auto;
+                float: left;
+            }
+            .ns img{
+                width: 50%;
+                height: auto;
+                float: right;
+            }
+            .xbox img{
+                width: 50%;
+                height: auto;
+                float: left;
+            }
+            .description{
+                width: 50%;
+                height: auto;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = 'title'>
+            <p>GAMING CONSOLE</p>
+        </div>
+        <div>
+            <a class = 'ps'>
+                <img src="./ps.png" alt="PlayStation">
+            </a>
+            <a class = 'ns'>
+                <img src="./ns.png" alt="Nintendo">
+            </a>
+            <a class = 'xbox'>
+                <img src="./xbox.png" alt="XBOX">
+            </a>
+            <div class = 'description'>
+            </div>
+        </div>
+    </body>
+</html>
